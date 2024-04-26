@@ -1,0 +1,95 @@
+:root {
+  --divisor: 1;
+}
+.hero {
+  height: 400px;
+  background-color: white;
+}
+
+.hero__text__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 100px;
+  height: inherit;
+  gap: 1rem;
+}
+
+.hero__text__container h1 {
+  padding: 10px 20px;
+  font-size: calc(3rem / var(--divisor));
+  background-color: black;
+  color: white;
+  white-space: nowrap;
+  width: min-content;
+}
+
+.hero__text__container p {
+  font-size: calc(5rem / var(--divisor));
+}
+.content {
+  margin: 6% 6% 0% 6%;
+  color: white;
+}
+
+.content h1 {
+  font-size: 4.6rem;
+}
+
+.content p {
+  font-size: 1.4rem;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  text-align: justify;
+}
+
+.content p:last-of-type {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 900px) {
+  :root {
+    --divisor: 1.5;
+  }
+  .hero__text__container {
+    margin-left: 40px;
+  }
+  .content h1 {
+    font-size: 3.4rem;
+  }
+  .content p {
+    font-size: 1rem;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    --divisor: 1.8;
+  }
+  .hero {
+    height: 300px;
+  }
+
+  .content h1 {
+    font-size: 2.6rem;
+  }
+  .content p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  :root {
+    --divisor: 2.6;
+  }
+  .hero {
+    height: 200px;
+  }
+
+  .content h1 {
+    font-size: 1.8rem;
+  }
+  .content p {
+    font-size: 0.8rem;
+  }
+}

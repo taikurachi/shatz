@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="/css/utilities.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <div class="navbar__logo__container">
+          <a href="/"
+            ><img src="/assets/main/shatzLogo.png" alt="Shatz Logo"
+          /></a>
+        </div>
+        <ul class="navbar__links__container">
+          <li class="navbar__links">
+            <a href="/aboutShatz/">ABOUT US</a>
+          </li>
+          <li class="navbar__links">
+            <a href="/whyShatz/">WHY SHATZ CAPITAL</a>
+          </li>
+          <li class="navbar__links">
+            <a href="/transactions/">TRANSACTIONS</a>
+          </li>
+          <li class="navbar__links">
+            <a href="/press/">PRESS</a>
+          </li>
+          <li class="navbar__links">
+            <a href="/contact/">CONTACT US</a>
+          </li>
+        </ul>
+        <div class="navbar__mobile__menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+    <main class="content">
+      <div class="contact__container">
+        <article class="contact__form">
+          <h1>Let's Get in Touch</h1>
+          <form method="post" class="grid__layout" action="send-email.php">
+            <input
+              type="text"
+              name="Firstname"
+              placeholder="First Name"
+              required
+            />
+            <input
+              type="text"
+              name="Lastname"
+              placeholder="Last Name"
+              required
+            />
+            <input type="text" name="E-Mail" placeholder="E-Mail" required />
+            <input type="text" name="Phone" placeholder="Phone" required />
+            <textarea
+              name="Message"
+              id="message"
+              placeholder="Message"
+              required
+            ></textarea>
+            <button class="submit__btn">Submit</button>
+          </form>
+        </article>
+        <div class="contact__info">
+          <article class="details">
+            <h1>Contact Info</h1>
+            <p>1100 Brickell Bay Drive, Suit 51</p>
+            <p>C Miami, FL 331313</p>
+            <p>Phone: 732 239 0078</p>
+            <p>Email: matt@shatzcapital.com</p>
+          </article>
+          <article class="social">
+            <h1>Follow Us</h1>
+            <div class="icons">
+              <a href="https://www.instagram.com/shatzcapital/"
+                ><i class="fa fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/company/shatzcapital/"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo__container">
+        <img src="/assets/main/shatzLogo.png" alt="Shatz Logo" />
+      </div>
+      <p class="footer__copyright">© 2024 Shatz Capital</p>
+      <a href="mailto:matt@shatzcapital.com" class="footer__contact__btn"
+        ><p>Contact</p></a
+      >
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>
