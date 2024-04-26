@@ -73,6 +73,9 @@ textarea {
   display: flex;
   flex-direction: column;
 }
+.detials p a {
+  color: white;
+}
 .icons {
   display: flex;
   gap: 1rem;
