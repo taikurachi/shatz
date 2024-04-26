@@ -29,6 +29,7 @@ body {
 }
 .navbar__logo__container {
   width: 100px;
+  z-index: 10;
 }
 
 .navbar__logo__container img {
@@ -48,6 +49,7 @@ body {
 
 .navbar__mobile__menu {
   display: none;
+  cursor: pointer;
 }
 .footer {
   display: flex;
@@ -109,7 +111,7 @@ body {
     font-size: 3rem;
     top: 0;
     left: 0;
-    z-index: -3;
+    /* z-index: 0; */
     background-color: #1e1e1e;
     height: 100vh;
     width: 100vw;
