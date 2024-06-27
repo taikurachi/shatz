@@ -34,13 +34,13 @@
 }
 
 .content h1 {
-  font-size: 4.6rem;
+  font-size: 3.8rem;
 }
 
 .content p {
   font-size: 1.4rem;
-  margin-top: 20px;
-  margin-bottom: 80px;
+  margin-top: 4px;
+  margin-bottom: 40px;
   text-align: justify;
 }
 

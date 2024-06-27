@@ -1,1 +1,6 @@
 send_email.php
+composer.lock
+composer.json
+composer-setup.php
+vendor
+emailSent
